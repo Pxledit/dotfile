@@ -7,8 +7,8 @@ cell_height_scale = 1.0
 cell_width_scale = 1.0
 
 dynamic_title = true
-fullscreen = true
-
+fullscreen = false
+state = floating
 word_char_exceptions = -=&#:/.?@+~_%;
 scrollback_lines = 10000
 
@@ -66,3 +66,4 @@ color14 = #93cee9
 # White
 color7 = #cbced3
 color15 = #cbced3
+

@@ -312,15 +312,17 @@ alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
-alias update='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
+alias update='yay -Syyu'
+alias pcupdate='sudo pacman -Syyu'
 alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
 alias upqll='paru -Syu --noconfirm'
 alias upal='paru -Syu --noconfirm'
-alias in='sudo pacman -S'
-alias un='sudo pacman -Rns'
-
+alias in='yay -S'
+alias un='yay -Rns'
+alias vi='nvim'
+alias sddm-on='sudo systemctl enable sddm'
+alias sddm-off='sudo systemctl disable sddm'
 
 
 

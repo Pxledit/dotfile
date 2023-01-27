@@ -7,22 +7,22 @@
 #################################################################
 
 super + p 
-	flameshot full -p /media/drive/Screenshots
+	flameshot gui
 
 super + shift + p
-	flameshot gui -p /media/drive/Screenshots
+	flameshot full
 
 
 #Brave
 super + w
-	chromium
+	firefox
 
 #Rofi Fullscreen
 super + F11
     rofi -theme-str 'window \{width: 100%;height: 100%;\}' -show drun
 
 #Rofi
-super + F12
+super + s
     rofi -show drun
 
 #################################################################
@@ -31,7 +31,7 @@ super + F12
 
 #Htop
 super + h
-    urxvt 'htop task manager' -e htop
+    termite 'btop task manager' -e btop
 
 
 #Rofi theme selector
@@ -48,7 +48,7 @@ super + m
 
 #alacritty
 super + Return
-    alacritty
+    termite
 
 #Xkill
 super + Escape
