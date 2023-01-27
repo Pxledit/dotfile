@@ -30,7 +30,7 @@ setxkbmap -layout us
 #Monitor Config
 bspc config remove_unplugged_monitors true
 bspc config remove_disabled_monitors true
-bspc monitor -d       
+bspc monitor -d     
 
 #BSPWM Config
 bspc config border_width        0
@@ -62,23 +62,27 @@ bspc rule -a Brave-browser desktop='^1' follow=on
 bspc rule -a Gimp desktop='^8' follow=on
 bspc rule -a wine desktop='^7' state=floating follow=on
 bspc rule -a yad state=floating follow=on
-bspc rule -a variety state=floating
+bspc rule -a alacritty state=floating
 bspc rule -a Chromium desktop='^2'
+bspc rule -a virt-manager desktop='^4'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Discord desktop='^6'
 bspc rule -a synergy desktop='^9'
+bspc rule -a termite state=floating
 
 #Auto-Start
 nitrogen --restore &
-xrandr -s 1920x1080 &
 bspc desktop -f ^9
-#variety &
-sleep 0.50
+variety &
+sleep 10.50
 urxvtc &
 lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
-#flameshot &
-#synology-drive &
+flameshot &
 bspc desktop -f ^1
+#pcmanfm &
+#telegram-desktop &
+#Discord &
+numlockx &
