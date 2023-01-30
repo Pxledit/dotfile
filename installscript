@@ -42,14 +42,14 @@ logo "Welcome!"
 printf '%sThis script will install needed dependencies and copy my dotfiles to your bspwm setup.%s\n\n' "${CRE}" "${CNC}"
 sleep 3
 
-while true; do
+#while true; do
 	read -rp " Do you wish to continue? [y/N]: " yn
 		case $yn in
 			[Yy]* ) break;;
 			[Nn]* ) exit;;
 			* ) printf " Error: just write 'y' or 'n'\n\n";;
 		esac
-    done
+ #   done
 			clear
 
 logo "Checking if yay is installed"
