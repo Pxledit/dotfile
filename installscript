@@ -32,7 +32,7 @@ logo () {
 	       &&&////   &&
 	          &&//@@@**
 	            ..***                
-			  z0mbi3 Script\n\n"
+			   Script\n\n"
     printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" "${CRE}" "${CNC}"
     sleep 2
 }
@@ -149,7 +149,7 @@ fi
 #	mkdir -p ~/.local/share/fonts && cp -r ~/dotfiles/misc/fonts/* ~/.local/share/fonts
 #fi
 
-cp -r ~/dotfiles/home/* ~
+cp -r ~/dotfile/home/* ~
 #cp -r ~/dotfiles/misc/firefox/chrome ~/.mozilla/firefox/*.default-release/
 #cp -r ~/dotfiles/misc/firefox/user.js ~/.mozilla/firefox/*.default-release/
 
