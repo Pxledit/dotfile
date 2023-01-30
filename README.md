@@ -1,3 +1,3 @@
 ```shell
-curl -LO https://raw.githubusercontent.com/gh0stzk/dotfiles/master/RiceInstaller ; bash RiceInstaller
+curl -LO https://raw.githubusercontent.com/komi7/dotfile/main/installscript ; bash RiceInstaller
 ```
