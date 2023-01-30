@@ -120,9 +120,9 @@ logo "Copying Rice.."
 printf "Copying files to respective directories..\n\n"
 
 if [ -d "$HOME/.config" ]; then
-	cp -r ~/dotfile/config/* ~/.config
+	cp -r ~/dotfile/config/* ~/.config/
 else
-	mkdir -p ~/.config && cp -r ~/dotfiles/config/* ~/.config
+	mkdir -p ~/.config && cp -r ~/dotfile/config/* ~/.config
 fi
 
 #if [ -d "$HOME/.local/bin" ]; then
@@ -149,7 +149,7 @@ fi
 #	mkdir -p ~/.local/share/fonts && cp -r ~/dotfiles/misc/fonts/* ~/.local/share/fonts
 #fi
 
-cp -r ~/dotfile/home/* ~
+cp -r ~/dotfile/home/* ~/
 #cp -r ~/dotfiles/misc/firefox/chrome ~/.mozilla/firefox/*.default-release/
 #cp -r ~/dotfiles/misc/firefox/user.js ~/.mozilla/firefox/*.default-release/
 
