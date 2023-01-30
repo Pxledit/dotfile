@@ -94,7 +94,7 @@ printf "Backup files will be stored in %s%s/.RiceBackup%s \n\n" "${CRE}" "$HOME"
 sleep 5
 
 if [ -d "$HOME/.RiceBackup" ]; then 
-		break
+#		break
 	else
 		mkdir "${HOME}"/.RiceBackup
 fi
