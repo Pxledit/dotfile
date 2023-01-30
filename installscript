@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 #	Script to install my dotfiles
-#   Author: z0mbi3
-#	url: https://github.com/gh0stzk
+#   Author: komi7
+#	url: https://github.com/pxledit
 
 CRE=$(tput setaf 1)
 CYE=$(tput setaf 3)
