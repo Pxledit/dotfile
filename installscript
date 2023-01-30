@@ -69,15 +69,16 @@ logo "Installing needed packages.."
 					 playerctl mpd ncmpcpp mpc picom feh ueberzug \
 					 maim pamixer libwebp webp-pixbuf-loader xorg-xkill papirus-icon-theme \
 					 ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-inconsolata ttf-joypixels \
-					 ffmpegthumbnailer fzf gnome-disk-utility jq lsd man-db mpv ntfs-3g playerctl \
-					 copyq xclip xsel
+					 ffmpegthumbnailer fzf gnome-disk-utility jq lsd man-db mpv ntfs-3g playerctl copyq xclip xsel \
+					 
 	
 	yay -S termite xtitle \
 		   nerd-fonts-cozette-ttf scientifica-font --removemake --cleanafter \
 		   xdotool clipboard \ 
 		   ffmpegthumbnailer tumbler  colord \
 		    brave-bin fnm-bin nerd-fonts-cozette-ttf nvim-nightly \
-		    nwg-look-bin xtitle ttf-material-design-icons-extended termite \ scientifica-font picom-git pcmanfm feh
+		    nwg-look-bin xtitle ttf-material-design-icons-extended termite \
+		    scientifica-font picom-git pcmanfm feh
 	
 			  
 clear
