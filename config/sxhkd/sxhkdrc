@@ -15,7 +15,7 @@ super + shift + p
 
 #Brave
 super + w
-	firefox
+	brave
 
 #Rofi Fullscreen
 super + F11
@@ -25,6 +25,14 @@ super + F11
 super + s
     rofi -show drun
 
+super + F10
+    rofi -modi emoji -show emoji
+
+super + F9
+    rofi -show calc -modi calc -no-show-match -no-sort
+
+super + F12
+    copyq menu
 #################################################################
 # SUPER + ... KEYS
 #################################################################
