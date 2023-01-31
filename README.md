@@ -15,3 +15,17 @@ curl -Lks http://bit.ly/pxleditdotfile | bash
   ***
   
   `1` Working on perfect package list.
+
+
+***
+
+#### Screenshot
+
+`polybar`
+> ![polybar](https://github.com/Pxledit/resources/blob/main/screenshot/2full.png)
+`startpage`
+> ![startpage](https://github.com/Pxledit/resources/blob/main/screenshot/braveinterface.png)
+`nofetch`
+> ![neofetch](https://github.com/Pxledit/resources/blob/main/screenshot/neofetch.png)
+`rofi search theme`
+> ![rofi search theme](https://github.com/Pxledit/resources/blob/main/screenshot/rofi-theme.png)
