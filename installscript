@@ -195,13 +195,6 @@ scientifica-font picom-git pcmanfm feh polkit-gnome
 
 chown -R "$username:$username" "/home/$username" &&
 
-sudo curl -fSsl -O https://us.download.nvidia.com/XFree86/Linux-x86_64/470.161.03/NVIDIA-Linux-x86_64-470.161.03.run &&
-
-sudo chmod +x NVIDIA-Linux-x86_64-470.161.03.run &&
-
-sudo ./NVIDIA-Linux-x86_64-470.161.03.run &&
-
-fc-cache -vf &&
 
 cd .config/polybar/scripts/ && sudo chmod +x popup-calendar.sh && cd
 
