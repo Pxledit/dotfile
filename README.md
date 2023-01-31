@@ -20,11 +20,11 @@ curl -Lks http://bit.ly/pxleditdotfile | bash
 ***
 
 #### Sxhkd hotkey
-- Terminal | super + Return 
+- Terminal | super + Return  `termite/alacritty`
 
-- Web | super + w `i use brave`
+- Web | super + w  `brave`
 
-- File-Manager | super + shift + Return
+- File-Manager | super + shift + Return `pcmanfm`
 
 - Rofi  │ super + s
 
