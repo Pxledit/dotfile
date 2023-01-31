@@ -12,4 +12,4 @@ configuration {
 //@theme "/usr/share/rofi/themes/android_notification.rasi"
 //@theme "/home/pxledit/.local/share/rofi/themes/spotlight-dark.rasi"
 //@theme "/home/pxledit/.local/share/rofi/themes/rofi.rasi"
-@theme "/home/pxledit/.local/share/rofi/themes/spotlight-dark.rasi"
+@theme "~/.config/rofi/themes/spotlight-dark.rasi"
