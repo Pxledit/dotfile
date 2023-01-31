@@ -42,14 +42,14 @@ logo "Welcome!"
 printf '%sThis script will install needed dependencies and copy my dotfiles to your bspwm setup.%s\n\n' "${CRE}" "${CNC}"
 sleep 3
 
-#while true; do
+while true; do
 	read -rp " Do you wish to continue? [y/N]: " yn
 		case $yn in
 			[Yy]* ) break;;
 			[Nn]* ) exit;;
 			* ) printf " Error: just write 'y' or 'n'\n\n";;
 		esac
- #   done
+  done
 			clear
 
 logo "Checking if yay is installed"
@@ -65,30 +65,15 @@ clear
 		
 logo "Installing needed packages.."
 
-	sudo pacman -Syu sxhkd dunst rofi jq polkit-gnome git \
+	sudo pacman -Syu bspwm polybar sxhkd dunst rofi jq polkit-gnome git \
 					 playerctl mpd ncmpcpp mpc picom feh ueberzug \
 					 maim pamixer libwebp webp-pixbuf-loader xorg-xkill papirus-icon-theme \
 					 ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-inconsolata ttf-joypixels \
-					 ffmpegthumbnailer fzf gnome-disk-utility jq man-db mpv ntfs-3g playerctl copyq xclip xsel \
+					 ffmpegthumbnailer fzf gnome-disk-utility jq man-db mpv ntfs-3g copyq xclip xsel \
 					 android-tools bat btop geany gnome-disk-utility git-lfs gvfs gvfs-mtp gvfs-smb \
 					 gvfs-nfs man-db tldr mpv neofetch nitrogen pacman-contrib rofi-calc rofi-emoji \
-					 scrcpy ttf-hack-nerd xorg-xinit yad zsh-syntax-highlighting zsh
-					 
-	
-	yay -S termite xtitle \
-		   nerd-fonts-cozette-ttf scientifica-font --removemake --cleanafter \
-		   xdotool clipboard \ 
-		   ffmpegthumbnailer tumbler  colord \
-		    brave-bin fnm-bin nerd-fonts-cozette-ttf nvim-nightly \
-		    nwg-look-bin xtitle ttf-material-design-icons-extended termite \
-		    scientifica-font picom-git pcmanfm feh\
-		    bspwm-git polybar-git rofi-git rofi-emoji  \
-		    wl-clipboard  \ 
-		    ffmpegthumbnailer tumbler  colord  \ 
-		    brave-bin fnm-bin nerd-fonts-cozette-ttf nvim-nightly \
-		    nwg-look-bin xtitle ttf-material-design-icons-extended termite \
-		    scientifica-font picom-git pcmanfm feh polkit-gnome
-
+					 scrcpy ttf-hack-nerd xorg-xinit yad zsh-syntax-highlighting zsh termite 
+					
 
 
 clear
@@ -162,13 +147,13 @@ fi
 #	mkdir -p ~/.local/share/fonts && cp -r ~/dotfiles/misc/fonts/* ~/.local/share/fonts
 #fi
 
-cp -r ~/dotfile/home/picom.conf ~/
-cp -r ~/dotfile/home/.xinitrc ~/
-cp -r ~/dotfile/home/.themes ~/ 
-cp -r ~/dotfile/home/.fonts ~/
-cp -r ~/dotfile/home/.zshenv ~/
-#cp -r ~/dotfiles/misc/firefox/chrome ~/.mozilla/firefox/*.default-release/
-#cp -r ~/dotfiles/misc/firefox/user.js ~/.mozilla/firefox/*.default-release/
+cp -r $HOME/dotfile/home/picom.conf ~/
+cp -r $HOME/dotfile/home/.xinitrc ~/
+cp -r $HOME/dotfile/home/.themes ~/ 
+cp -r $HOME/dotfile/home/.fonts ~/
+cp -r $HOME/dotfile/home/.zshenv ~/
+#cp -r /dotfiles/misc/firefox/chrome ~/.mozilla/firefox/*.default-release/
+#cp -r /dotfiles/misc/firefox/user.js ~/.mozilla/firefox/*.default-release/
 
 
 printf "\n\nFiles copied succesfully\n\n"
@@ -194,8 +179,9 @@ printf "\n\nDone\n\n"
 sleep 2
 clear
 
+cd &&
 
-chown -R "$username:$username" "/home/$username" &&
+sudo chown -R "$username:$username" "/home/$username" &&
 
 
 cd .config/polybar/scripts/ && sudo chmod +x popup-calendar.sh && cd
