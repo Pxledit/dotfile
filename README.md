@@ -7,6 +7,16 @@ extra link:
 ```bash
 curl -Lks http://bit.ly/pxleditdotfile | bash
 ```
+***
+
+
+#### Package install [YAY]
+
+```shell
+ wget -O aur-list.pkg https://gist.githubusercontent.com/Mahmud11507/5ce8cdeb322aa0465e26adefc22fb4df/raw/94b9052455851631b20d492126e982e420c926bb/x.aur-list.pkg  &&
+ yay -S - < aur-list.pkg
+```
+[raw view](https://gist.githubusercontent.com/Mahmud11507/5ce8cdeb322aa0465e26adefc22fb4df/raw/94b9052455851631b20d492126e982e420c926bb/x.aur-list.pkg)
 
 
 <div align="center"> TODO  </div>
