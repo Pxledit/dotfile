@@ -19,6 +19,17 @@ curl -Lks http://bit.ly/pxleditdotfile | bash
 
 ***
 
+#### Sxhkd hotkey
+- Terminal | super + Return 
+
+- Web | super + w `i use brave`
+
+- File-Manager | super + shift + Return
+
+- Rofi  │ super + s
+
+[More...](https://raw.githubusercontent.com/Komi7/dotfile/main/config/sxhkd/sxhkdrc)
+
 #### Screenshot
 
 `polybar`

@@ -65,11 +65,14 @@ clear
 		
 logo "Installing needed packages.."
 
-	sudo pacman -Syu bspwm polybar sxhkd dunst rofi lsd jq polkit-gnome git \
+	sudo pacman -Syu sxhkd dunst rofi jq polkit-gnome git \
 					 playerctl mpd ncmpcpp mpc picom feh ueberzug \
 					 maim pamixer libwebp webp-pixbuf-loader xorg-xkill papirus-icon-theme \
 					 ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-inconsolata ttf-joypixels \
-					 ffmpegthumbnailer fzf gnome-disk-utility jq lsd man-db mpv ntfs-3g playerctl copyq xclip xsel \
+					 ffmpegthumbnailer fzf gnome-disk-utility jq man-db mpv ntfs-3g playerctl copyq xclip xsel \
+					 android-tools bat btop geany gnome-disk-utility git-lfs gvfs gvfs-mtp gvfs-smb \
+					 gvfs-nfs man-db tldr mpv neofetch nitrogen pacman-contrib rofi-calc rofi-emoji \
+					 scrcpy ttf-hack-nerd xorg-xinit yad zsh-syntax-highlighting zsh
 					 
 	
 	yay -S termite xtitle \
@@ -78,9 +81,16 @@ logo "Installing needed packages.."
 		   ffmpegthumbnailer tumbler  colord \
 		    brave-bin fnm-bin nerd-fonts-cozette-ttf nvim-nightly \
 		    nwg-look-bin xtitle ttf-material-design-icons-extended termite \
-		    scientifica-font picom-git pcmanfm feh
-	
-			  
+		    scientifica-font picom-git pcmanfm feh\
+		    bspwm-git polybar-git rofi-git rofi-emoji  \
+		    wl-clipboard  \ 
+		    ffmpegthumbnailer tumbler  colord  \ 
+		    brave-bin fnm-bin nerd-fonts-cozette-ttf nvim-nightly \
+		    nwg-look-bin xtitle ttf-material-design-icons-extended termite \
+		    scientifica-font picom-git pcmanfm feh polkit-gnome
+
+
+
 clear
 			 
 logo "Cloning Rice!"
@@ -183,14 +193,6 @@ systemctl --user start mpd.service
 printf "\n\nDone\n\n"
 sleep 2
 clear
-
-
-yay -S  bspwm-git polybar-git  dunst  rofi-git rofi-emoji   sxhkd    \
-wl-clipboard  \
-ffmpegthumbnailer tumbler  colord      \
-brave-bin fnm-bin nerd-fonts-cozette-ttf nvim-nightly \
-nwg-look-bin xtitle ttf-material-design-icons-extended termite \
-scientifica-font picom-git pcmanfm feh polkit-gnome
 
 
 chown -R "$username:$username" "/home/$username" &&
