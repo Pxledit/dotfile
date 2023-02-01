@@ -17,7 +17,7 @@ pxledit Dotfiles
 ## :snowflake: <samp>Information</samp>
 
 <div>
-<img src="https://archlinux.org/static/logos/archlinux-logo-dark-scalable.518881f04ca9.svg" width="500" height="200" align=right />
+<img src="https://archlinux.org/static/logos/archlinux-logo-dark-scalable.518881f04ca9.svg" width="400" height="200" align=right />
 
 <table align=left><tr><td>
 <b>- Operating System: </b><br />
