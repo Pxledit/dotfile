@@ -3,10 +3,10 @@ Auto-Installer:`my dot & package choice `
 ```shell
 sudo curl -LO https://raw.githubusercontent.com/pxledit/dotfile/main/installscript ; bash installscript
 ```
-extra link:
-```bash
-curl -Lks http://bit.ly/pxleditdotfile | bash
-```
+~~extra link:~~
+
+~~curl -Lks http://bit.ly/pxleditdotfile | bash~~
+
 ***
 
 
