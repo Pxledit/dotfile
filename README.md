@@ -1,4 +1,51 @@
 
+<br>
+
+<div align="justify">
+<div align="center">
+
+
+```ocaml
+pxledit Dotfiles
+```
+</div>
+
+<br>
+<br>
+<br>
+
+## :snowflake: <samp>Information</samp>
+
+<div>
+<img src="https://archlinux.org/static/logos/archlinux-logo-dark-scalable.518881f04ca9.svg" width="500" height="200" align=right />
+
+<table align=left><tr><td>
+<b>- Operating System: </b><br />
+<b>- Window Manager: </b><br />
+<b>- Compositor: </b><br />
+<b>- Terminal: </b><br />
+<b>- Shell: </b><br />
+<b>- Editor: </b><br />
+<b>- GPU: </b><br /></table>
+
+<table><tr><td>
+<a href="https://archlinux.org">archlinux</a><br />
+<a href="https://github.com/baskerville/bspwm">bspwm</a><br />
+<a href="https://github.com/yshui/picom">Picom</a><br />
+<a href="https://github.com/alacritty/alacritty">Alacritty</a><br />
+<a href="https://www.zsh.org">ZSH</a><br />
+<a href="https://neovim.io/">neovim</a><br />
+<a href="https://www.nvidia.com">Nvidia</a><br /></table>
+</div>
+
+<br>
+<br>
+
+
+
+
+
+
 Auto-Installer:`my dot & package choice `
 ```shell
 sudo curl -LO https://raw.githubusercontent.com/pxledit/dotfile/main/installscript ; bash installscript
