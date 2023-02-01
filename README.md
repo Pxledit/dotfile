@@ -71,7 +71,7 @@ sudo curl -LO https://raw.githubusercontent.com/pxledit/dotfile/main/installscri
   
   ***
   
-  `1` Working on perfect package list.
+  - [x]  Working on perfect package list.
 
 
 ***
