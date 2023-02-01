@@ -72,6 +72,7 @@ sudo curl -LO https://raw.githubusercontent.com/pxledit/dotfile/main/installscri
   ***
   
   - [x]  Working on perfect package list.
+  - [ ]  fix script.
 
 
 ***
